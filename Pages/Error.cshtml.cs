@@ -12,6 +12,7 @@ public class ErrorModel : PageModel
     public ErrorModel(ILogger<ErrorModel> logger)
     {
         _logger = logger;
+		//Console.WriteLine("Test Error");
     }
 
     public string? RequestId { get; set; }
