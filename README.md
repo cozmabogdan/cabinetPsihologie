@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">  
-    <img src="/ClientApp/public/images/logo-psihologie.png" alt="Logo" width="80" height="80">  
+    <img src="/ClientApp/public/images/logo-psihologie.png" alt="Logo" width="300" height="150">  
     <h3 align="center"Cabinet Psihologie</h3>  
 </div>
 
