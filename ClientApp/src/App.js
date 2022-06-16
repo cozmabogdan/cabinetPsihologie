@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router';
 import { Layout } from './components/Layout';
-import { Home } from './components/Home';
-import { Articole } from './components/Articole';
-import { DespreNoi } from './components/DespreNoi';
-import { Contact } from './components/Contact';
+import { Home } from './components/home/Home';
+import { Articole } from './components/articole/Articole';
+import { DespreNoi } from './components/desprenoi/DespreNoi';
+import { Contact } from './components/contact/Contact';
+import { Login } from './components/login/Login';
 
 
 import './custom.css'
@@ -19,6 +20,7 @@ export default class App extends Component {
         <Route path='/articole' component={Articole} />
         <Route path='/despreNoi' component={DespreNoi} />
         <Route path='/contact' component={Contact} />
+        <Route path='/login' component={Login} />
       </Layout>
     );
   }
