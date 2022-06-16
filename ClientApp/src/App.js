@@ -6,7 +6,7 @@ import { Articole } from './components/articole/Articole';
 import { DespreNoi } from './components/desprenoi/DespreNoi';
 import { Contact } from './components/contact/Contact';
 import { Login } from './components/login/Login';
-
+import { AdminDashboard } from './components/adminDashboard/AdminDashboard';
 
 import './custom.css'
 
@@ -21,6 +21,7 @@ export default class App extends Component {
         <Route path='/despreNoi' component={DespreNoi} />
         <Route path='/contact' component={Contact} />
         <Route path='/login' component={Login} />
+        <Route path='/adminDashboard' component={AdminDashboard} />
       </Layout>
     );
   }
