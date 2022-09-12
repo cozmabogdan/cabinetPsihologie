@@ -14,15 +14,15 @@ export default class App extends Component {
   static displayName = App.name;
 
   render () {
-    return (
-      <Layout>
-        <Route exact path='/' component={Home} />
-        <Route path='/articole' component={Articole} />
-        <Route path='/despreNoi' component={DespreNoi} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/login' component={Login} />
-        <Route path='/adminDashboard' component={AdminDashboard} />
-      </Layout>
+    return (              
+        <Layout>
+          <Route exact path='/' component={Home} />
+          <Route path='/articole' component={Articole} />
+          <Route path='/despreNoi' component={DespreNoi} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/login' component={Login} />
+          <Route path='/adminDashboard' component={AdminDashboard} />          
+        </Layout>         
     );
   }
 }
